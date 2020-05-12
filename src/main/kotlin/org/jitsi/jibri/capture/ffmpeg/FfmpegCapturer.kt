@@ -38,7 +38,7 @@ import java.util.logging.Logger
  * Parameters which will be passed to ffmpeg
  */
 data class FfmpegExecutorParams(
-    val resolution: String = "1920x1080",
+    val resolution: String = "1280x720",
     val framerate: Int = 60,
     val videoEncodePreset: String = "veryslow",
     val queueSize: Int = 4096,
